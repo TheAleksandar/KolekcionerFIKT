@@ -54,15 +54,15 @@ namespace KolekcionerFIKT
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "1933619330235547",
+               appSecret: "459e3380433742bfd816dd95c1aae374");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "395316788305-bu15luvlcvcpgmbmps2jniqe0dsp9lqk.apps.googleusercontent.com",
+                ClientSecret = "81qTr1CayE2h8E1cx7_LWKdv"
+            });
         }
     }
 }
